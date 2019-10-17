@@ -175,16 +175,16 @@ public class MusicPlayerService extends Service implements MediaPlayer.OnPrepare
         PendingIntent pendInt = PendingIntent.getActivity(this, 0,
                 notIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-        Notification.Builder builder = new Notification.Builder(this);
-
-        builder.setContentIntent(pendInt)
-                .setSmallIcon(R.drawable.ic_play_arrow_black_24dp)
-                .setTicker(songtitle)
-                .setOngoing(true)
-                .setContentTitle("Playing")
-                .setContentText(songtitle);
-        Notification not = builder.build();
-        startForeground(NOTIFY_ID, not);
+//        Notification.Builder builder = new Notification.Builder(this);
+//
+//        builder.setContentIntent(pendInt)
+//                .setSmallIcon(R.drawable.ic_play_arrow_black_24dp)
+//                .setTicker(songtitle)
+//                .setOngoing(true)
+//                .setContentTitle("Playing")
+//                .setContentText(songtitle);
+//        Notification not = builder.build();
+        //startForeground(NOTIFY_ID, not);
 
 
     }

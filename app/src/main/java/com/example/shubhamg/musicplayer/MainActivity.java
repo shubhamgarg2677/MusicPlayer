@@ -406,9 +406,4 @@ boolean musicbound=false,musicThreadFinished=true;
         }
      });
     }
-
-//    @Override
-//    public SeekBar domethod() {
-//      return seekBar;
-//    }
 }
